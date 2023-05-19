@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		490DAB8C2A17B2970086D6CA /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490DAB8B2A17B2970086D6CA /* OnboardingView.swift */; };
+		490DAB8E2A17B2B20086D6CA /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490DAB8D2A17B2B20086D6CA /* HomeView.swift */; };
 		4913A7B52A0AC11D008D01A1 /* SwiftUI_ComplexGesture_MiniProject_RestartApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4913A7B42A0AC11D008D01A1 /* SwiftUI_ComplexGesture_MiniProject_RestartApp.swift */; };
 		4913A7B72A0AC11D008D01A1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4913A7B62A0AC11D008D01A1 /* ContentView.swift */; };
 		4913A7B92A0AC11F008D01A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4913A7B82A0AC11F008D01A1 /* Assets.xcassets */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		490DAB8B2A17B2970086D6CA /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		490DAB8D2A17B2B20086D6CA /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		4913A7B12A0AC11D008D01A1 /* SwiftUI-ComplexGesture-MiniProject-Restart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-ComplexGesture-MiniProject-Restart.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4913A7B42A0AC11D008D01A1 /* SwiftUI_ComplexGesture_MiniProject_RestartApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_ComplexGesture_MiniProject_RestartApp.swift; sourceTree = "<group>"; };
 		4913A7B62A0AC11D008D01A1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -89,6 +93,8 @@
 			isa = PBXGroup;
 			children = (
 				4913A7B62A0AC11D008D01A1 /* ContentView.swift */,
+				490DAB8B2A17B2970086D6CA /* OnboardingView.swift */,
+				490DAB8D2A17B2B20086D6CA /* HomeView.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -179,6 +185,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				490DAB8C2A17B2970086D6CA /* OnboardingView.swift in Sources */,
+				490DAB8E2A17B2B20086D6CA /* HomeView.swift in Sources */,
 				4913A7B72A0AC11D008D01A1 /* ContentView.swift in Sources */,
 				4913A7B52A0AC11D008D01A1 /* SwiftUI_ComplexGesture_MiniProject_RestartApp.swift in Sources */,
 			);
